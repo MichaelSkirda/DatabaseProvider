@@ -1,4 +1,4 @@
-﻿namespace Dupper
+﻿namespace DbProvider
 {
 	internal class ExceptionMessages
 	{

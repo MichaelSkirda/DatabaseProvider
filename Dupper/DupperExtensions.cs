@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Dupper
+namespace DbProvider
 {
 	public static class DupperExtensions
 	{

@@ -2,7 +2,7 @@
 using System.Data;
 using System.Threading;
 
-namespace Dupper
+namespace DbProvider
 {
 	public class DbProvider<T> : IDbProvider<T>
 		where T : class, IDbConnection
