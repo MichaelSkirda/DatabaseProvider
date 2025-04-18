@@ -93,15 +93,15 @@ namespace Dupper
 				if (DbConnectionFactory == null)
 					throw new InvalidOperationException(ExceptionMessages.NoFactory);
 
-				T tempConn = DbConnectionFactory(connectionString);
+				T connection = DbConnectionFactory(connectionString);
 
-				if (tempConn == null)
+				if (connection == null)
 					throw new InvalidOperationException(ExceptionMessages.FailedToCreateConnection);
 
 				if (switchToNewConnection)
-					SwitchToNewConnection(tempConn);
+					SwitchToNewConnection(connection);
 
-				return tempConn;
+				return connection;
 			}
 			finally
 			{
