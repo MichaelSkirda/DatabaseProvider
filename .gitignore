@@ -1,5 +1,3 @@
 /.vs
-/Dupper/obj
-/Dupper/bin
-/Demo/DupperDemo/bin
-/Demo/DupperDemo/obj
+/DbProvider/obj
+/DbProvider/bin
