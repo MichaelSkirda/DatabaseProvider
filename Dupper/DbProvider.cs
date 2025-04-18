@@ -17,7 +17,7 @@ namespace Dupper
 
 		private Mutex Mutex { get; set; } = new Mutex();
 		private int MutexMillisecondsTimeout { get; set; } = 5000;
-		private bool _preventDisposing = false;
+		private bool _preventDisposing { get; set; } = false;
 
 
 		public DbProvider(Func<T> dbConnectionProvider)
