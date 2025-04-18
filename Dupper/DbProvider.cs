@@ -189,6 +189,7 @@ namespace Dupper
 			if (Transaction == null)
 				throw new InvalidOperationException(ExceptionMessages.NoStartedTransaction);
 			Transaction.Commit();
+			Transaction.Dispose();
 			Transaction = null;
 		}
 
@@ -197,7 +198,8 @@ namespace Dupper
 			if (Transaction == null)
 				throw new InvalidOperationException(ExceptionMessages.NoStartedTransaction);
 			Transaction.Rollback();
-			Transaction = null;
+            Transaction.Dispose();
+            Transaction = null;
 		}
 
 		#endregion
