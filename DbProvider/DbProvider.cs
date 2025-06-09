@@ -2,7 +2,7 @@
 using System.Data;
 using System.Threading;
 
-namespace DbProvider
+namespace DatabaseProvider
 {
 	public class DbProvider<T> : IDbProvider<T>
 		where T : class, IDbConnection

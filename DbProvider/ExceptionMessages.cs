@@ -1,6 +1,6 @@
-﻿namespace DbProvider
+﻿namespace DatabaseProvider
 {
-	internal class ExceptionMessages
+	internal static class ExceptionMessages
 	{
 		internal static string NitherProviderNorFactory =
 			"Nither DbConnectionProvider nor (DbConnectionFactory with ConnectionString) not provided." +

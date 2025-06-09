@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data;
 
-namespace DbProvider
+namespace DatabaseProvider
 {
 	public interface IDbProvider<out T> : IDisposable
 		where T : class, IDbConnection
