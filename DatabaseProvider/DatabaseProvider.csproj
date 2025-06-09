@@ -2,18 +2,21 @@
 
   <PropertyGroup>
 	<TargetFrameworks>net461;netstandard2.0;net5.0;net7.0</TargetFrameworks>
-    <Version>2.1.66</Version>
+    <Version>2.0.4</Version>
     <Title>DatabaseProvider</Title>
     <Description>Easy DB injection and extra mapping methods.</Description>
 	<Authors>Michael Skirda (Sayorineko)</Authors>
 	<RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/MichaelSkirda/DbProvider.git</RepositoryUrl>
     <PackageProjectUrl>https://github.com/MichaelSkirda/DbProvider</PackageProjectUrl>
-	<PackageLicenseUrl>https://github.com/MichaelSkirda/DbProvider/blob/main/LICENSE</PackageLicenseUrl>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageLicense>LICENSE.txt</PackageLicense>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<LangVersion>9</LangVersion>
 	<Nullable>enable</Nullable>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	<PackageIconUrl>https://github.com/MichaelSkirda/DatabaseProvider/blob/cfd67293d97415315ff1fe032a9d5556aa9fe261/DbProvider/icon.png</PackageIconUrl>
+	<PackageIcon>icon.png</PackageIcon>
 	<NeutralLanguage>en</NeutralLanguage>
 	<IncludeSymbols>True</IncludeSymbols>
 	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
@@ -21,6 +24,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Dapper" Version="2.0.4" />
+	  <None Include=".\icon.png" Pack="true" PackagePath="\" />
+	  <None Include=".\LICENSE.txt" Pack="true" PackagePath="\" />
+	  <None Include=".\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 </Project>
