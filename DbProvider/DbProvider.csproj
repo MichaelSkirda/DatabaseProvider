@@ -13,7 +13,7 @@
 	<LangVersion>9</LangVersion>
 	<Nullable>enable</Nullable>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	<PackageIconUrl>https://github.com/MichaelSkirda/DbProvider/blob/7fba808d694df19f0cdef29ea45e7af24e55e7df/DbProvider/icon.png</PackageIconUrl>
+	<PackageIconUrl>https://github.com/MichaelSkirda/DatabaseProvider/blob/cfd67293d97415315ff1fe032a9d5556aa9fe261/DbProvider/icon.png</PackageIconUrl>
 	<NeutralLanguage>en</NeutralLanguage>
 	<IncludeSymbols>True</IncludeSymbols>
 	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
