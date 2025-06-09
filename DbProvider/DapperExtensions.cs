@@ -5,9 +5,9 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DbProvider
+namespace DatabaseProvider
 {
-	public static class DupperExtensions
+	public static class DapperExtensions
 	{
 		private static bool _switchToNewConnectino = true;
 
