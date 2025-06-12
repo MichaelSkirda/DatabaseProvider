@@ -7,8 +7,8 @@
     <Description>Easy DB injection and extra mapping methods.</Description>
 	<Authors>Michael Skirda (Sayorineko)</Authors>
 	<RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/MichaelSkirda/DbProvider.git</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/MichaelSkirda/DbProvider</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MichaelSkirda/DatabaseProvider.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/MichaelSkirda/DatabaseProvider</PackageProjectUrl>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<PackageLicense>LICENSE.txt</PackageLicense>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
