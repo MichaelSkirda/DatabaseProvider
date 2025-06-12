@@ -43,7 +43,7 @@ All examples contains these two models:
 public class Customer
 {
     public int Id { get; set; }
-    public string? Usernamea { get; set; }
+    public string? Username { get; set; }
     public List<Product> PurchasedProducts { get; set; } = [];
 }
 ```
